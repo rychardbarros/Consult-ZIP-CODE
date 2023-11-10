@@ -1,0 +1,16 @@
+.custom-bg-image {
+    background: url('/assets/img/map01.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 2.0;
+}
+
+:root{
+    --bg-color: #33373b;
+    --border-color: #ffffff;
+    --border-width: 2px; 
+    --border-radius: 10px;
+    
+    
+}

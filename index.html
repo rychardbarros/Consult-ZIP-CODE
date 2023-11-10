@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script src="assets/index.js" defer></script>
+    <title>Localizar CEP</title>
+</head>
+<body>
+    <div class="container-fluid vw-100">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center vh-100 flex-column" style="background-color: #33373b;">
+                <label class="text-light mb-3" for="cep" style="font-family: Roboto; font-size: 45px; font-weight: 500;">Digite o CEP:</label>
+                <input id="cep" class="mb-3 form-control text-dark text-center" type="number" style="font-size: 20px;">
+                <button id="get" class="btn btn-primary">Buscar CEP</button>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center custom-bg-image vh-100">
+                <div class="w-75 text-light h-auto text-center d-flex flex-column justify-content-center align-items-center" id="result" style="font-family: Poppin;">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
